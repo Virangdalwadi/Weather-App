@@ -100,7 +100,7 @@ const App = () => {
             </div>
 
             <div className="mt-6 sm:mt-8 border-t pt-4 sm:pt-6">
-              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-2 mb-3 sm:mb-4">
+              <div className="flex flex-col sm:flex-row justify-between items-center sm:items-center gap-3 sm:gap-2 mb-3 sm:mb-4">
                 <p className="text-base sm:text-lg text-gray-700 font-medium">
                   Current Weather
                 </p>
@@ -112,7 +112,7 @@ const App = () => {
                 📍 {location}
               </p>
 
-              <div className="bg-blue-50 rounded-lg p-3 sm:p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-3">
+              <div className="bg-blue-50 rounded-lg p-3 sm:p-4 flex flex-col sm:flex-row justify-between items-center sm:items-center gap-2 sm:gap-3">
                 <span className="text-sm sm:text-base text-gray-700 font-medium">💨 Wind Speed</span>
                 <span className="text-lg sm:text-xl font-bold text-blue-700">
                   {wind} km/h
