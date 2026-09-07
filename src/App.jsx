@@ -13,7 +13,8 @@ const App = () => {
     return saved ? JSON.parse(saved) : [];
   });
 
-  const API_KEY = "476bd1afe404be87e8e806b4337cb51a";
+
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
   const saveTemp = () => {
     if (location == "" || temp == "" || wind == "") {
